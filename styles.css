@@ -6,6 +6,28 @@
     box-sizing: border-box;
 }
 
+/* Contact Form CSS*/ 
+
+.mb-6 {
+    margin: 2%;
+}
+
+#name, #email, #subject, #message {
+    width: 100%;
+    height: 3rem;
+    margin-top: 10px;
+}
+
+.flex.items-center.min-h-screen.bg-gray-50.dark\:bg-gray-900 {
+    max-width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: #f7f7f7;
+    padding: 25px;
+}
+
+
 html {
     font-size: 16px;
     font-family: Lato, sans-serif;
@@ -26,6 +48,26 @@ a {
 
 a:hover {
     color: hsl(194, 100%, 70%);
+}
+
+#contact p {
+    font-size: 1.8rem;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    padding-bottom: 1%;
+    color: hsl(223, 24%, 24%);
+    text-align: center;
+    color: hsl(0,0%,92%);
+}
+
+.links {
+    display: block;
+    text-align: center;
+}
+
+.links img {
+    width: 5%;
+    margin: 15px;
 }
 
 .center {
@@ -238,17 +280,16 @@ nav a {
     border-radius: 5px;
 }
 
-.about-me-container,
-.button-container {
-    width: 45%;
-    margin: 3rem 0;
+.about-me-container {
+    margin: 3rem;
     box-shadow: 4px 4px 12px hsla(223, 24%, 24%, 0.6);
     border-radius: 5px;
+    text-align: center;
 }
 
 .about-me, 
 .about-content .button-container {
-    font-size: 1.15rem;
+    font-size: 1.6rem;
     color: hsl(0,0%,92%);
     line-height: 1.5;
     border-radius: 5px;
@@ -521,14 +562,9 @@ nav a {
 }
 
 #email {
-    margin-left:0.5rem;
+
 }
 
-#name, 
-#email {
-    width: 50%;
-    height:3rem;
-}
 
 #subject,
 #message {
