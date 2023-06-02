@@ -1,100 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Hind&display=swap" rel="stylesheet">
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@1,800&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="styles.css">
-    <title>Lemontree Tennis boom</title>
-</head>
-<body>
-    <div id="navbar">
-      <div class="navmenu">
-        <ul>
-          <a href=""><li>Events</li></a>
-          <a href=""><li>Results</li></a>
-          <a href=""><li>Partnering Restaurants</li></a>
-        </ul>
-      </div>
-    </div>
- 
-  <div class="image-container">
-      <h1>Lemontree Tennis Club</h1>
-        <img id="logo" src="images/logo.avif" alt="Logo">   
-  </div>
-    
- 
-  <div class="intro">
-      <h2>Come meet up! Play hard! Celebrate our love for tennis and our love for food 
-          every Saturday morning from 9am - 2pm!</h2>
-  </div 
-  
-  class="contentimg">
-      <div class="image1">
-        <div class="tennis">
-          <img  src="images/play.jpg" alt="Playing Tennis">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="./styles.css" type="text/css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+        <title>ABWS: Ashleigh Benater</title>
+        <script src="https://kit.fontawesome.com/eb367b03ef.js" crossorigin="anonymous"></script>
+        <script src="/styles.css" defer></script>
+    </head>
+    <body>
+        <header>
+            <div class="center header-content">
+                <div class="logo logo-container">
+                    <img src="" alt="" id="logo">
+                </div>
+                <nav class="desktop-nav">
+                    <ul class="nav-menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <nav class="mobile-nav">
+                    <ul class="nav-menu">
+                        <li><a class="menu-item" href="#">Home</a></li>
+                        <li><a class="menu-item" href="#about">About</a></li>
+                        <li><a class="menu-item" href="#projects">Projects</a></li>
+                        <li><a class="menu-item" href="#skills">Skills</a></li>
+                        <li><a class="menu-item" href="contact.html">Contact</a></li>
+                    </ul>
+                    <button class="hamburger">          
+                        <i class="fa-solid fa-bars menuIcon"></i>
+                        <i class="fa-solid fa-xmark closeIcon"></i>
+                </button>
+                </nav>
+            </div>
+        </header>
+        <main>r>
+        <section class="introduction" id="intro">
+            <div class="intro-text">
+            <h1>Hi, 
+            <br>I'm Ashleigh
+            </h1>
+            <p> Welcome to the Home of 
+                <br>Ashleigh Benater's Web Services</p>
+            </div>
+            <figure>
+                <img src="/Images/me.jpg" alt="Picture of Karolina" id="color-pic">
+                <img src="./Resources/Images/profile pic banner black-white.jpeg" alt="Picture of Karolina" id="no-color-pic">
+            </figure>
+        </section>
+        <section class="color-change-mode">
+        <i class="center fa-solid fa-paint-roller"></i>
+        <div class=" center sliderContainer">    
+            <input type="range" id="range" min = 1 max = 2 value="1"class="slider">
         </div>
+        </section>
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-me-container">
+                    <p class="about-me" id="about-me" style = "text-indent: 0.9rem"> Hi! I'm Ashleigh, a freelance Full Stack Engineer from England.
+                        When I'm not in England, you can find me packing up my laptop and working from from Belgium with a comfy seat and a wifi connection. Having spent the last few months working on front end web development, I am currently learning about the back end.
+                        The end goal is to build a travel related web app for my company, and work with clients to bring their dreams to an online reality.
+                    </p>
+                </div>
+                <div class="button-container">
+                    <p class="center" id="question">Would you like to learn a word or two in Polish? Feel free to press the button!!!</p>
+                    <div id="polishWord-container">   
+                        <p class ="center" id="polishWord"></p>
+                    </div>
+                    <button id="polish-button">LET'S LEARN!</button>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <p class="center projects-intro">Some of the projects I completed in the Front-End Engineer path from Codecademy.
+                Can't wait to add more! 
+            </p>
+            <div class="imgs-container">
+                <figure>
+                    <img src="/Images/Art Shop.avif" alt="Screenshot of Style Guide project">
+                    <div class="description hidden">
+                        <h3>Dasmoto's Arts & Crafts</h3>
+                        <p>Basic Design System for a website.</p>
+                        <p>Used HTML and CSS</p>
+                    </div>
+                    <div class="project-links hidden">
+                            <a href="https://github.com/Karito84/Web-Style-Guide" target="_blank">View Code</a>
+                            <a href="https://karito84.github.io/Web-Style-Guide/" target="_blank">View Page</a>
+                    </div>
+                </figure>
+                <figure>
+                    <img src="/Images/teapot.avif" alt="Screenshot of Tea Cozy project">
+                    <div class="description hidden">
+                        <h3>Tea Cozy</h3>
+                        <p>Fictional tea shop website </p>
+                        <p>A resource for tea lovers: Responsive webpage designed using HTML5 and CSS.</p>
+                    </div>
+                    <div class="project-links hidden">
+            
+                    </div>
+                </figure>
+                <figure>
+                    <img src="/Images/responsive club tennis.avif" alt="Screenshot of a company website project">
+                    <div class="description hidden">
+                        <h3>Responsive community tennis club website</h3>
+                        <p>Built a website for a fictional tennis club</p>
+                        <p>Used HTML and CSS with responsive design through media queries</p>
+                    </div>
+                    <div class="project-links hidden">
+                
+                    </div>
+                </figure>
+                <figure>
+                    <img src="Images/dna.avif" alt="Picture of DNA for a project">
+                    <div class="description hidden">
+                        <h3>Mysterious Organizm</h3>
+                        <p>Created objects to simulate the DNA of an organizm for a research team</p>
+                        <p>Used Java Script loops and functions</p>
+                    </div> 
+                    <div class="project-links hidden">
+                    </div>
+                </figure>
+                <figure>
+                    <img src="Images/piano.avif" alt="Screenshot of PianoPlayer project">
+                    <div class="description hidden">
+                        <h3>Piano Keys</h3>
+                        <p>Piano player with DOM events in JavaScript</p>
+                        <p>Used Java Script</p>
+                    </div>
+                    <div class="project-links hidden">
+                    </div>
+                </figure>
+            </div>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-container">
+            <i class="fa-brands fa-html5 center"><p>HTML</p></i>
+            <i class="fa-brands fa-css3-alt center"><p>CSS</p></i>
+            <i class="fa-brands fa-js center"><p>JavaScript</p></i>
+            <i class="fa-brands fa-git center"><p>git</p></i>
+            <i class="fa-brands fa-github center"><p>gitHub</p></i>
+            <i class="fa-brands fa-chrome center"><p>Chrome</p></i>
+            </div>
+        </section>
+        </main>
+        <footer>
+            <p>©ABWS: Ashleigh's Web Services</p>
+        </footer>
 
-        <div class="tennis"> 
-          <img src="images/balls.jpg" alt="Playing Tennis">
-        </div>
-
-        <div class="tennis">
-          <img src="images/ballbat.jpg" alt="Playing Tennis">
-        </div>
-
-      <div class="tennis">
-          <img src="images/man1.jpg" alt="Playing Tennis">
-      </div>
-
-  </div>
-</div>
-
-    <p class="aim">
-      It is wonderful to be a member of the Lemontree Tennis Club. The tennis is vibrant... 
-      the courts are good, and there is a nice mix of competitive tennis and casual tennis. 
-      One of the great benefits is that the club is also a social club! There is a bar and food available; 
-      and there is a nice buzz about the place! By Dave Smith
-    </p>
-  </div>
-
-</div class="contentimg">
-  <div class="image2">
-      <div class="tennis">
-        <img  src="images/social.jpg" alt="Eating food">
-      </div>
-
-      <div class="tennis">
-        <img  src="images/food.jpg" alt="Eating food">
-      </div>
-
-      <div class="tennis">
-        <img  src="images/yum.jpg" alt="Eating food">
-      </div>
-    </div>
-  </div>
-</div>
-
-<footer>
-  <div class="contact">
-      <h2>Contact: Lemontree Tennis Club</h2>
-      <h5>info@lemontreetennisclub.com</h5>
-      <h5>555-867-5309</h5>
-  </div>
-
-  <div class="copyright">
-      <h5>copyright Lemontree Tennis Club 2020</h5>
-  </div>
-</footer>
-
-</body>
+    </body>
 </html>
