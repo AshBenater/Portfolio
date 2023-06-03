@@ -1,4 +1,6 @@
-        let rangeButton = document.querySelector('.sliderContainer input[type="range"]');
+       // JS file for burger menu homepage
+
+       let rangeButton = document.querySelector('.sliderContainer input[type="range"]');
         let header = document.querySelector("header");
         let myLogo = document.getElementById("logo");
         let footer = document.querySelector("footer");            
